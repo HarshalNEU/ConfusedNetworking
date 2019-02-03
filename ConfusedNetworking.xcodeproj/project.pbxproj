@@ -10,6 +10,7 @@
 		7D66D6C3220724AA007C6A56 /* ConfusedNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D66D6B9220724AA007C6A56 /* ConfusedNetworking.framework */; };
 		7D66D6C8220724AA007C6A56 /* ConfusedNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D66D6C7220724AA007C6A56 /* ConfusedNetworkingTests.swift */; };
 		7D66D6CA220724AA007C6A56 /* ConfusedNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D66D6BC220724AA007C6A56 /* ConfusedNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D66D6E722072A39007C6A56 /* StartupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D66D6E622072A39007C6A56 /* StartupTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		7D66D6C2220724AA007C6A56 /* ConfusedNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfusedNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D66D6C7220724AA007C6A56 /* ConfusedNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfusedNetworkingTests.swift; sourceTree = "<group>"; };
 		7D66D6C9220724AA007C6A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D66D6E622072A39007C6A56 /* StartupTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				7D66D6BC220724AA007C6A56 /* ConfusedNetworking.h */,
 				7D66D6BD220724AA007C6A56 /* Info.plist */,
+				7D66D6E622072A39007C6A56 /* StartupTest.swift */,
 			);
 			path = ConfusedNetworking;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					7D66D6B8220724AA007C6A56 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					7D66D6C1220724AA007C6A56 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D66D6E722072A39007C6A56 /* StartupTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +344,7 @@
 		7D66D6CE220724AA007C6A56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -355,6 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.BrightApps.ConfusedNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +370,7 @@
 		7D66D6CF220724AA007C6A56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -387,6 +395,7 @@
 		7D66D6D1220724AA007C6A56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ConfusedNetworkingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +413,7 @@
 		7D66D6D2220724AA007C6A56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ConfusedNetworkingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
