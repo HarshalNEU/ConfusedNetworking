@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.description  = "ConfusedNetworking a framework that allows you to pick from JSONSerilizaiton, SwiftyJson or Codeable Enums to decide on the parsing method you would want to implement for any API requests that you make."
   s.homepage     = "http://www1.coe.neu.edu/~neelkamalh/Portfolio/"
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "HarshalNEU" => "neelkamal.h@husky.neu.edu" }
 
