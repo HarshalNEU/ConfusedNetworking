@@ -11,6 +11,7 @@
 		7D66D6C8220724AA007C6A56 /* ConfusedNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D66D6C7220724AA007C6A56 /* ConfusedNetworkingTests.swift */; };
 		7D66D6CA220724AA007C6A56 /* ConfusedNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D66D6BC220724AA007C6A56 /* ConfusedNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D66D6E722072A39007C6A56 /* StartupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D66D6E622072A39007C6A56 /* StartupTest.swift */; };
+		7D66D70922093352007C6A56 /* CNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D66D70822093352007C6A56 /* CNet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		7D66D6C7220724AA007C6A56 /* ConfusedNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfusedNetworkingTests.swift; sourceTree = "<group>"; };
 		7D66D6C9220724AA007C6A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D66D6E622072A39007C6A56 /* StartupTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupTest.swift; sourceTree = "<group>"; };
+		7D66D70822093352007C6A56 /* CNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,9 @@
 		7D66D6BB220724AA007C6A56 /* ConfusedNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				7D66D70A2209338B007C6A56 /* Builder */,
+				7D66D707220932DD007C6A56 /* Util */,
+				7D66D706220932C7007C6A56 /* API */,
 				7D66D6BC220724AA007C6A56 /* ConfusedNetworking.h */,
 				7D66D6BD220724AA007C6A56 /* Info.plist */,
 				7D66D6E622072A39007C6A56 /* StartupTest.swift */,
@@ -87,6 +92,28 @@
 				7D66D6C9220724AA007C6A56 /* Info.plist */,
 			);
 			path = ConfusedNetworkingTests;
+			sourceTree = "<group>";
+		};
+		7D66D706220932C7007C6A56 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7D66D70822093352007C6A56 /* CNet.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7D66D707220932DD007C6A56 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		7D66D70A2209338B007C6A56 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D66D6E722072A39007C6A56 /* StartupTest.swift in Sources */,
+				7D66D70922093352007C6A56 /* CNet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
