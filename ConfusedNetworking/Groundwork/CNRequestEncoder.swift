@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol CNRequestEncoder {
+internal protocol CNRequestEncoder {
     associatedtype ParameterTypes
     static func encodeRequest(request: inout URLRequest, withParameters parameters: ParameterTypes)
 }

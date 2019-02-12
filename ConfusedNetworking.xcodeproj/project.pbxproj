@@ -14,10 +14,11 @@
 		7D57637422132F2E00975686 /* CNNetworkingQueryParamEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D57637322132F2E00975686 /* CNNetworkingQueryParamEncoder.swift */; };
 		7D57637622132F3D00975686 /* CNNetworkingJsonBodyEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D57637522132F3D00975686 /* CNNetworkingJsonBodyEncoder.swift */; };
 		7D5763792213416D00975686 /* CNRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5763782213416D00975686 /* CNRequestDelegate.swift */; };
+		7D57637B22134DFA00975686 /* CNSessionInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D57637A22134DFA00975686 /* CNSessionInterface.swift */; };
+		7D57637D221351F200975686 /* CNSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D57637C221351F200975686 /* CNSession.swift */; };
 		7D66D6C3220724AA007C6A56 /* ConfusedNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D66D6B9220724AA007C6A56 /* ConfusedNetworking.framework */; };
 		7D66D6C8220724AA007C6A56 /* ConfusedNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D66D6C7220724AA007C6A56 /* ConfusedNetworkingTests.swift */; };
 		7D66D6CA220724AA007C6A56 /* ConfusedNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D66D6BC220724AA007C6A56 /* ConfusedNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D66D70922093352007C6A56 /* CNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D66D70822093352007C6A56 /* CNet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +39,14 @@
 		7D57637322132F2E00975686 /* CNNetworkingQueryParamEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNNetworkingQueryParamEncoder.swift; sourceTree = "<group>"; };
 		7D57637522132F3D00975686 /* CNNetworkingJsonBodyEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNNetworkingJsonBodyEncoder.swift; sourceTree = "<group>"; };
 		7D5763782213416D00975686 /* CNRequestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNRequestDelegate.swift; sourceTree = "<group>"; };
+		7D57637A22134DFA00975686 /* CNSessionInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNSessionInterface.swift; sourceTree = "<group>"; };
+		7D57637C221351F200975686 /* CNSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNSession.swift; sourceTree = "<group>"; };
 		7D66D6B9220724AA007C6A56 /* ConfusedNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConfusedNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D66D6BC220724AA007C6A56 /* ConfusedNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfusedNetworking.h; sourceTree = "<group>"; };
 		7D66D6BD220724AA007C6A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D66D6C2220724AA007C6A56 /* ConfusedNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfusedNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D66D6C7220724AA007C6A56 /* ConfusedNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfusedNetworkingTests.swift; sourceTree = "<group>"; };
 		7D66D6C9220724AA007C6A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D66D70822093352007C6A56 /* CNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +129,8 @@
 		7D66D706220932C7007C6A56 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				7D66D70822093352007C6A56 /* CNet.swift */,
 				7D5763782213416D00975686 /* CNRequestDelegate.swift */,
+				7D57637C221351F200975686 /* CNSession.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -138,6 +140,7 @@
 			children = (
 				7D57636C22131FF000975686 /* CNRequestType.swift */,
 				7D57636E2213207C00975686 /* CNRequestEncoder.swift */,
+				7D57637A22134DFA00975686 /* CNSessionInterface.swift */,
 			);
 			path = Groundwork;
 			sourceTree = "<group>";
@@ -252,10 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D57636B22131F5100975686 /* CNRequest.swift in Sources */,
+				7D57637D221351F200975686 /* CNSession.swift in Sources */,
 				7D57637422132F2E00975686 /* CNNetworkingQueryParamEncoder.swift in Sources */,
 				7D57637222132F1B00975686 /* CNNetworkingHeaderEncoder.swift in Sources */,
+				7D57637B22134DFA00975686 /* CNSessionInterface.swift in Sources */,
 				7D57636D22131FF000975686 /* CNRequestType.swift in Sources */,
-				7D66D70922093352007C6A56 /* CNet.swift in Sources */,
 				7D57636F2213207C00975686 /* CNRequestEncoder.swift in Sources */,
 				7D57637622132F3D00975686 /* CNNetworkingJsonBodyEncoder.swift in Sources */,
 				7D5763792213416D00975686 /* CNRequestDelegate.swift in Sources */,

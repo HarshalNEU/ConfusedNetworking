@@ -9,7 +9,7 @@
 import Foundation
 
 
-enum CNRequestType:String {
+public enum CNRequestType:String {
     case POST = "POST"
     case PUT = "PUT"
     case GET = "GET"

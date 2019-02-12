@@ -10,8 +10,8 @@ import Foundation
 
 
 @objc public protocol CNRequestDelegate {
-    @objc optional func bodyForRequestWith(id:Int) -> [String:Any]?
-    @objc optional func queryParamsForRequestWith(id: Int) -> [String:Any]?
-    @objc optional func customHeadersForRequestWith(id: Int) -> [String:String]?
+    @objc optional func bodyForRequestWith(tag:Int) -> [String:Any]?
+    @objc optional func queryParamsForRequestWith(tag: Int) -> [String:Any]?
+    @objc optional func customHeadersForRequestWith(tag: Int) -> [String:String]?
     func responseForRequestWith(id: Int, response: URLResponse, json: [String:Any], error: Error)
 }

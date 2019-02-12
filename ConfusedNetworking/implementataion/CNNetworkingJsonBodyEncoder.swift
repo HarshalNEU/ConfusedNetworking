@@ -9,7 +9,7 @@
 import Foundation
 
 
-class CNNetworkingJsonBodyEncoder:CNRequestEncoder{
+internal class CNNetworkingJsonBodyEncoder:CNRequestEncoder{
     typealias ParameterTypes = [String:Any]
     
     static func encodeRequest(request: inout URLRequest, withParameters parameters: [String : Any]) {
