@@ -9,6 +9,10 @@
 import Foundation
 
 
-enum CNRequestType {
-    case POST, PUT, GET, DELETE, PATCH
+enum CNRequestType:String {
+    case POST = "POST"
+    case PUT = "PUT"
+    case GET = "GET"
+    case DELETE = "DELETE"
+    case PATCH = " PATCH"
 }

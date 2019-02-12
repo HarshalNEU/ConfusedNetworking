@@ -12,6 +12,10 @@ class CNNetworkingHeaderEncoder:CNRequestEncoder{
     typealias ParameterTypes = [String:String]
     
     static func encodeRequest(request: inout URLRequest, withParameters parameters: [String : String]) {
-        //encode Headers
+        
+        for (key,value) in parameters {
+            request.addValue(value, forHTTPHeaderField: key)
+        }
+        
     }
 }
