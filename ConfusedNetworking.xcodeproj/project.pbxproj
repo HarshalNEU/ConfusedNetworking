@@ -16,7 +16,6 @@
 		7D66D6C3220724AA007C6A56 /* ConfusedNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D66D6B9220724AA007C6A56 /* ConfusedNetworking.framework */; };
 		7D66D6C8220724AA007C6A56 /* ConfusedNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D66D6C7220724AA007C6A56 /* ConfusedNetworkingTests.swift */; };
 		7D66D6CA220724AA007C6A56 /* ConfusedNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D66D6BC220724AA007C6A56 /* ConfusedNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D66D6E722072A39007C6A56 /* StartupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D66D6E622072A39007C6A56 /* StartupTest.swift */; };
 		7D66D70922093352007C6A56 /* CNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D66D70822093352007C6A56 /* CNet.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +42,6 @@
 		7D66D6C2220724AA007C6A56 /* ConfusedNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfusedNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D66D6C7220724AA007C6A56 /* ConfusedNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfusedNetworkingTests.swift; sourceTree = "<group>"; };
 		7D66D6C9220724AA007C6A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D66D6E622072A39007C6A56 /* StartupTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupTest.swift; sourceTree = "<group>"; };
 		7D66D70822093352007C6A56 /* CNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +109,6 @@
 				7D66D706220932C7007C6A56 /* API */,
 				7D66D6BC220724AA007C6A56 /* ConfusedNetworking.h */,
 				7D66D6BD220724AA007C6A56 /* Info.plist */,
-				7D66D6E622072A39007C6A56 /* StartupTest.swift */,
 			);
 			path = ConfusedNetworking;
 			sourceTree = "<group>";
@@ -253,7 +250,6 @@
 			files = (
 				7D57636B22131F5100975686 /* CNRequest.swift in Sources */,
 				7D57637422132F2E00975686 /* CNNetworkingQueryParamEncoder.swift in Sources */,
-				7D66D6E722072A39007C6A56 /* StartupTest.swift in Sources */,
 				7D57637222132F1B00975686 /* CNNetworkingHeaderEncoder.swift in Sources */,
 				7D57636D22131FF000975686 /* CNRequestType.swift in Sources */,
 				7D66D70922093352007C6A56 /* CNet.swift in Sources */,
