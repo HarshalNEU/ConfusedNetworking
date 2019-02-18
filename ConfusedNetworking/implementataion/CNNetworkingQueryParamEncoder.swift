@@ -8,7 +8,7 @@
 
 import Foundation
 
-class CNNetworkingQueryParamEncoder:CNRequestEncoder{
+internal class CNNetworkingQueryParamEncoder:CNRequestEncoder{
     typealias ParameterTypes = [String:Any]
     
     static func encodeRequest(request: inout URLRequest, withParameters parameters: [String : Any]) {
